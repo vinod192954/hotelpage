@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.link {
+    margin: 20px;
+}
+.banner-container {
+    background-image: url("https://res.cloudinary.com/dzmhdzvfb/image/upload/v1721828697/img1_cakucr.jpg");
+    height: 90vh;
+   
+    width:100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-container {
+    background-color: rgba(213, 128, 127, 0.7); /* Background color with 70% opacity */
+    padding: 20px;
+    width: 30vw;
+    margin-left: 40px;
+}
+.text-container h1 {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.text-container p {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.bg-container {
+    background-image: linear-gradient(to left, #ff76b6, #ffbd76);
+    height: auto;
+    width:100vw;
+    background-size: cover;
+
+}
+.item-size-plate {
+    height: 170px;
+    width: 170px;
+    border-top-right-radius: 35px;
+}
+.food-item-container {
+    list-style-type: none;
+    background-color: #ffffff;
+    padding: 15px;
+    height: 45%;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.item-size {
+    height: 45%;
+    width: 100%;
+    border-top-right-radius: 35px;
+    min-width: 120px;
+}
+.food-item-container h1 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.food-item-container p {
+    text-align: center;
+    color: #4a4848;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.hamburger-icon {
+    height: 50px;
+}
+.bottom-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-heading {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 35px;
+    letter-spacing: 2.5px;
+}
+.food-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.order-button {
+    background-color: #f7f4f4;
+    padding: 10px;
+    border-radius: 15px;
+    border-width: 0px;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-icon {
+    height: 30px;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container {
+    margin-left: 40px;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 576px) {
+    .mobile-view-hamburger-icon {
+        display: block;
+        text-align: end;
+    }
+    .nav-links {
+        display: none;
+    }
+    .icon-container {
+        display: none;
+    }
+    .text-container h1 {
+        color: #ffffff;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+    .text-container p {
+        color: #ffffff;
+        font-family: sans-serif;
+        font-size: 9px;
+    }
+    .food-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .food-item-container{
+        width: 230px;
+        height: 330px;
+        margin: 20px;
+    }
+    .nav-container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .hamburger-icon{
+        height: 30px;
+        margin: 10px;
+    }
+}
+@media screen and (min-width:576px ){
+    .mobile-view-harmburger-icon {
+        display: none;
+    }
+    .nav-links{
+        width: 420px;
+        margin-right: 28px;
+    }
+    .link{
+        margin: 5px;
+        font-size: 15px;
+        gap: 5px;
+    }
+    .food-item-container{
+        width: 230px;
+    }
+
+    
+
+}
